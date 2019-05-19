@@ -1,0 +1,203 @@
+
+
+h1 {
+  font-family: Calibri;
+}
+
+h2 {
+  font-family: Calibri;
+}
+
+h3 {
+  font-family: Calibri;
+}
+
+p {
+  font-family: Calibri;
+}
+
+label {
+  font-family: Calibri;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+a {
+  color: black;
+}
+
+li {
+  color: black;
+  font-family: Calibri;
+}
+
+.container {
+  width: 330px;
+  height: 250px;
+  background-color: #f1f1f1; 
+  border: 2px solid;
+  border-color: #ccc;
+  border-radius: 5px;
+  font-family: Calibri;
+}
+
+.backgroundPic img {
+  width: 100%;
+  height: 60%;
+}
+
+.login .loginform {
+  width: 350px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.welcome {
+  width: 800px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 400px;
+  padding-top: 500px;
+}
+.welcome h1 {
+  top: 10%;
+  left: 55%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.welcome img {
+  top: 15%;
+  left: 25%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.shoppinglistButton {
+  top: 30%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.logoutButton {
+  top: 30%;
+  left: 63%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.outlogged {
+  width: 350px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+.outlogged a {
+  color: white;
+}
+
+.checklogin {
+  width: 350px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+.createTitle {
+  width: 800px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.create {
+  width: 800px;
+  height: 755px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.read {
+  width: 800px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.update {
+  width: 800px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.delete {
+  width: 800px;
+  height: 655px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}

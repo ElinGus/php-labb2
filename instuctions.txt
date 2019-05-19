@@ -1,0 +1,45 @@
+----------------- SKAPA TABELLER --------------
+
+CREATE TABLE Customer(
+    CustomerID INT NOT NULL AUTO_INCREMENT,
+    CustomerPassword VARCHAR(45),
+    CustomerUsername VARCHAR(45),
+    PRIMARY KEY (CustomerID)
+);
+
+CREATE TABLE Products(
+    ProductsID INT NOT NULL AUTO_INCREMENT,
+    ProductsPrice INT,
+    ProductsName VARCHAR(45),
+    PRIMARY KEY (ProductsID)
+);
+
+CREATE TABLE Shoppinglist(
+    ShoppinglistID INT NOT NULL AUTO_INCREMENT,
+    shoppinglistCostmerID INT,
+    ShoppinglistTitle VARCHAR(45),
+    PRIMARY KEY (ShoppinglistID),
+    FOREIGN KEY (shoppinglistCostmerID) REFERENCES Customer(CustomerID)
+);
+
+CREATE TABLE ProdShoplist(
+    ProdShoplistID INT NOT NULL AUTO_INCREMENT,
+    ProdShoplistShopID INT,
+    ProdShoplistProdID INT,
+    PRIMARY KEY (ProdShoplistID),
+    FOREIGN KEY (ProdShoplistShopID) REFERENCES Shoppinglist(ShoppinglistID),
+    FOREIGN KEY (ProdShoplistProdID) REFERENCES Products(ProductsID)
+);
+
+
+_______________________________________________________
+KOMMEMTAR:
+
+Man kan inte registrera egna användare till databasen.
+Jag har skapat anvädare med användarnamn och lösenord direkt i databasen och använt dem när jag loggat in.
+
+användarnamn: Elin
+lösenord: 1234
+
+användarnamn: Johan
+lösenord: toan
