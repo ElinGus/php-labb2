@@ -36,10 +36,17 @@ _______________________________________________________
 KOMMEMTAR:
 
 Man kan inte registrera egna användare till databasen.
-Jag har skapat anvädare med användarnamn och lösenord direkt i databasen och använt dem när jag loggat in.
+Jag har skapat anvädare med användarnamn och lösenord direkt i databasen och använt dem när jag loggat in. Kolunmnen bgColor i databasen är den backgrundsfärg användaren valt till som profil.
 
 användarnamn: Elin
 lösenord: 1234
+bakgrundsfärg i sin profil: lightgreen
 
 användarnamn: Johan
 lösenord: toan
+bakgrundsfärg i sin profil: lightblue
+____________________________________________________________
+
+LÄNK TILL GITHUB:
+
+https://github.com/ElinGus/php-labb2
